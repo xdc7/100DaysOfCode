@@ -17,7 +17,6 @@ print (rotate("bob and julian love pybites!", 15))
 """pytest tests
 from rotate import rotate
 
-
 def test_rotate():
     assert rotate('hello', 2) == 'llohe'
     assert rotate('hello', -2) == 'lohel'

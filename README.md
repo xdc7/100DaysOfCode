@@ -7,5 +7,5 @@ I will do all my 100 day challenges in this repo. The challenges will be under t
 
 
 #### Sources:
-1. Automate the Boring Stuff by Sweigart or <https://automatetheboringstuff.com/>
+1. Automate the Boring Stuff by Al Sweigart:  <https://automatetheboringstuff.com/>
 2. Code Challenges https://codechalleng.es/

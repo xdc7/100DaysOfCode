@@ -1,6 +1,9 @@
 from __future__ import print_function
+
+# Day 6 has 2 challenges
+
 """
-Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like this:
+Challenge 01: Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like tSay you have a list value like t"Say you have a list value like this:
 
 spam = ['apples', 'bananas', 'tofu', 'cats']
 
@@ -30,6 +33,7 @@ print (list_to_string(spam))
 
 
 """
+Challenge 01: 
 Say you have a list of lists where each value in the inner lists is a one-character string, like this:
 
 grid = [['.', '.', '.', '.', '.', '.'],

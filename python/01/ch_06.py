@@ -67,16 +67,15 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
 
 
-m = grid
 
+# Simple solution using nested for loops
 # for y in range(len(grid[0])):
 #     for x in range(len(grid)-1,-1,-1):
 #         print(grid[x][y], end='')
 #     print()
 
-
-# tx = ([[row[i] for row in m] for i in range(len(m[0]))])
-
+# Solution using list comprehension
+m = grid
 tx = [[row[i] for row in m ]for i in range(len(m[0]))]
 
 for row in tx:

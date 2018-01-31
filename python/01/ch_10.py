@@ -8,29 +8,31 @@ Using the word list at http://www.puzzlers.org/pub/wordlists/unixdict.txt, write
 
 
 import requests
+# Using the requets.get method to download the text file
 response = requests.get('http://www.puzzlers.org/pub/wordlists/unixdict.txt')
 
+# Calling .text on the response object and then calling the split() method on the string to create a list of words
 word_list = response.text.split()
+
+# Opening a file to write the results
 results_file = open('2_plus_letter_alternades', 'w')
+
+# Iterating over all the words in the list
 for word in word_list:
     alternade_list = []
     odd_word = ""
     even_word = ""
-    # for i in range(0,(len(word) - 1), 2):
-    for i in range(0,(len(word))):
+    # Iterating over the length of each word and concatenating the odd and even lettered letters to form 2 words from odd and even numbered letters
+    for i in range(0, (len(word))):
         if i % 2 == 0:
             even_word += word[i]
         else:
             odd_word += word[i]
-    
+    # Checking if both the odd and even lettered words exist in the original words list and whether their length is greater than 2
     if odd_word in word_list and even_word in word_list and len(odd_word) >= 2 and len(even_word) >= 2:
+        # Creating a formatted string to hold matched odd and even words from the list
         results = "Alternades for {0}: {1} {2}\n".format(word, even_word, odd_word)
+        # Writing the formatted string to the results file
         results_file.write(results)
-        # print ("Alternades for %s: %s %s" % (word, even_word, odd_word))
-        #print(results)
-        
- #print ("\nLOWER CASE: %s \nUPPER CASE: %s" % (count_upper_lower_characters(entry)))   
-
-
-
+# Closing the results file
 results_file.close()

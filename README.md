@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/xdc7/100DaysOfCode.svg?branch=master)](https://https://github.com/xdc7/100DaysOfCode/)
+
+
+
 # 100DaysOfCode
 My take at 100 Days of Code
 

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/xdc7/100DaysOfCode.svg?branch=master)](https://https://github.com/xdc7/100DaysOfCode/)
+[![Build Status](https://travis-ci.org/xdc7/100DaysOfCode.svg?branch=master)](https://github.com/xdc7/100DaysOfCode/)
 
 
 

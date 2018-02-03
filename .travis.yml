@@ -6,3 +6,9 @@ install:
   - pip install -r python/01/requirements.txt
 script:
   - cd python/01 && pytest
+notifications:
+  email:
+    recipients:
+      - juzerali@gmail.com
+    on_success: never # default: change
+    on_failure: never # default: always

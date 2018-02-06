@@ -13,3 +13,6 @@ I will do all my 100 day challenges in this repo. The challenges will be under t
 #### Sources:
 1. Automate the Boring Stuff by Al Sweigart:  <https://automatetheboringstuff.com/>
 2. Code Challenges https://codechalleng.es/
+3. Many more. I'll list them as time permits
+
+[Travis-CI project page](https://travis-ci.org/xdc7/100DaysOfCode)
